@@ -28,3 +28,18 @@ for (let { name, ...rest } of user) {
 // one more basic example
 const arrayofValues  = [1,2,3,4,4]
 console.log(...arrayofValues)
+
+
+// swaping value without tempory variable //
+
+let a = 5, b = 10;
+[a, b] = [b, a];
+
+console.log(a); // 10
+console.log(b); // 5
+
+
+
+
+
+

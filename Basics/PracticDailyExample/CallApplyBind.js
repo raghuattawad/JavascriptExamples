@@ -121,7 +121,7 @@ printFullName.apply(name2Details,["Mumbai", "Maharastra"])
 
 
 
-// one more way
+// one more way 
 const userDet = {
     myName:'raghuu'
 }
@@ -134,3 +134,21 @@ function getgreeting(greet){
 
 console.log(getgreeting.call(userDet,"Hello0000"))
 console.log(getgreeting.apply(userDet,["HI"]))
+
+
+// call apply  one more example
+
+
+const car  = {brand:"Maruti"}
+const  bike  = {brand:"pulsaar"}
+
+
+
+function showBrand(){
+
+    console.log(`Brand ${this.brand}`)
+
+}
+
+showBrand.call(car)
+showBrand.apply(bike)

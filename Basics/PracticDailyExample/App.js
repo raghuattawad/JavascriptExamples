@@ -38,15 +38,15 @@ const styles = StyleSheet.create({
 // export default ParentComponent;
 
 
-// import React from 'react';
-// import { Text, View } from 'react-native';
+import React from 'react';
+import { Text, View } from 'react-native';
 
-// const ChildComponent = ({ message }) => {
-//   return (
-//     <View>
-//       <Text>{message}</Text>
-//     </View>
-//   );
-// };
+const ChildComponent = ({ message }) => {
+  return (
+    <View>
+      <Text>{message}</Text>
+    </View>
+  );
+};
 
-// export default ChildComponent;
+export default ChildComponent;

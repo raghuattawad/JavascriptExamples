@@ -32,3 +32,20 @@ function innerFunnction(){
 
  })
  
+
+ // oneMore Example
+
+ const xxValue = 10;
+
+ function doAddtion() {
+     let y = 10;
+     function addMore() {
+         let z = 15;
+         console.log("SUM", xxValue + y + z);
+     }
+     return addMore; // Return the inner function
+ }
+ 
+ const resultFunction = doAddtion(); // Now resultFunction holds addMore
+ resultFunction(); // This executes addMore, forming a closure
+ 

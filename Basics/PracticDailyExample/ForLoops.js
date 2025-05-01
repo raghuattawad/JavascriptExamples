@@ -1,9 +1,19 @@
 const user = {name:'raghu',age:32}
+const wifeDeta = {name:'vaishu', age:29}
 
+
+for (let key in wifeDeta){
+    console.log(`wife data ${key}: ${wifeDeta[key]}`)
+}
 for (let key in user){
 
  console.log(`${key}: ${user[key]}`)
+ console.log(`${key} : ${user[key]}`)
 
+}
+
+for (let key in user){
+    
 }
 
 

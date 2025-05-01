@@ -116,7 +116,7 @@ function Appp(){
 
 let add = function(){
 
-  console.log("addotion")
+  console.log ("addotion")
 
 }
 console.log(add)
@@ -158,13 +158,13 @@ console.log('addArrow',additonArraw(2,3))
 
 /// Yeild 
 
-// function* helloWorld(){
+function* helloWorld(){
 
-//   yield 'welocme to react-native'
+  yield 'welocme to react-native'
 
-// }
+}
 
 
-// let generatObj = helloWorld()
+let generatObj = helloWorld()
 
-// console.log('generate obj',generatObj.next())
+console.log('generate obj',generatObj.next())
